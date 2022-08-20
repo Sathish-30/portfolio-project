@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sathish portfolio</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://kit.fontawesome.com/7efdde92ce.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--Header section-->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="logo.svg" class="logo" alt="">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">My Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX designer</p>
+          <h1>
+            Hi, I'm <span>Sathish</span><br />
+            from Coimbatore
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!--About Section-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/about.svg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="sub-content">
+              <span class="myself">I am <span class="highlight">Sathish</span></span> , student at sri shakthi institue of engineering and
+              technology and currently pursuing my 2nd year B.tech degree in
+              Artificial intelligence and data science And learning frontend
+              development where having intermedite knowledge about <span class="highlight">HTML 5 , CSS
+                3</span>  and basic knowledge in <span class="highlight">Bootstrap , Javascript</span> . myself having a
+              goodteamwork and leader-ship skill
+              <!--cause myself leaded a
+              team as captain in sports[Kabaddi] , boosted the teamates and
+              pushed everyone to their peek performance and tried our hard best
+              during every matches-->
+              And having a intend to upskill myself as a full stack web
+              developer and Web3 developer. I'm a sophopile person who likes to
+              explore new info about emerging technologies
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li>
+                  <span>UI/UX</span><br/>
+                  Designing Web interfaces
+                </li>
+                <li>
+                  <span>Frontend</span><br />
+                  Development
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience" >
+              <ul>
+              <ul>
+                <li>
+                  <span>2022 - Current</span><br />
+                  UI/UX Designing Web interfaces
+                </li>
+                <li>
+                  <span>2022 - Current</span><br />
+                  Frontend Development
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+              <ul>
+                <li>
+                  <span>2022</span><br />
+                  UI/UX Designing from freecodecamp
+                </li>
+                <li>
+                  <span>2022</span><br />
+                  Frontend Development from Udemy
+                </li>
+                <li>
+                  <span>2021 - Current</span><br />
+                  B.tech form SIET
+                </li>
+                <li>
+                  <span>2021</span><br />
+                  HSC from KMHSS
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code icon"></i>
+            <h2>UI/UX design</h2>
+            <p class="para">User interface design or user interface engineering is the design of user interfaces for machines and software, such as computers, home appliances, with the focus on maximizing usability and the user experience</p><br>
+            <a href="#">Learn more..</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop icon"></i>
+            <h2>Web design</h2>
+            <p class="para">Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.</p><br>
+            <a href="#">Learn more..</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-ghost icon"></i>
+            <h2>App design</h2>
+            <p class="para">App design combines the user interface (UI) and user experience (UX). While UI lends itself to the overall style of the app (including the colors, fonts, and general look and feel), UX focuses on the actual functionality and usability.</p><br>
+            <a href="#">Learn more..</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Portfolio section-->
+     <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/page-1.jpeg" alt="">
+            <div class="layer">
+              <h3>Social Media Website</h3>
+              <p class="sub-content">The website helps people to connect with every person across the world</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/page-2.png" alt="">
+            <div class="layer">
+              <h3>Music App</h3>
+              <p class="sub-content">The website helps people to connect with every person across the world</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work ">
+            <img src="images/page-3.png" alt="">
+            <div class="layer edit">
+              <h3>E-commerce</h3>
+              <p class="sub-content">The website helps people to connect with every person across the world</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more..</a>
+      </div>
+     </div>
+     <!--Skills section-->
+     <div id="skills">
+      <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="skill-list">
+          <div>
+             <h3>Technical Skill</h3>
+             <ul>
+              <li>HTML 5</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>C programming</li>
+              <li>Java</li>
+              <li>DSA</li>
+             </ul>
+          </div>
+          <div>
+            <h3>Non-Technical Skill</h3>
+            <ul>
+              <li>Leadership</li>
+             <li>Team work</li>
+             <li>Adaptability</li>
+            </ul>
+         </div>
+         <div>
+          <h3>Hobbies</h3>
+          <ul>
+            <li>Reading Books</li>
+           <li>Drawing</li>
+           <li>Travelling</li>
+           <li>Cooking</li>
+          </ul>
+       </div>
+        </div>
+      </div>
+     </div>
+     <!--Contact section-->
+     <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>sathish.amsaravanan@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone-flip"></i>8220616811</p>
+            <div class="social-icon">
+              <a href="https://www.linkedin.com/in/sathish-s-3763a621a/"><i class="fa-brands fa-linkedin  "></i></a>
+              <a href="https://twitter.com/Sathish73324058"><i class="fa-brands fa-twitter-square"></i></a>
+              <a href="https://www.instagram.com/iamsathish_30/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <!--Resume ah href la add pannuna download pannala-->
+
+            <a href="" download class="btn btn-2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name = "Name" placeholder="Your name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" placeholder="Your message" rows="6"></textarea>
+              <button type="submit" class="btn btn-2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright ©️ Sathish </p>
+      </div>
+     </div>
+    <script src="index.js">
+    </script>
+  </body>
+</html>
