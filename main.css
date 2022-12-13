@@ -26,6 +26,7 @@ body {
 .container {
   padding: 5px 8%;
 }
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -452,11 +453,16 @@ nav .fa-solid {
     margin-bottom: 20px;
   }
   .header-text {
-    margin-top: 100%;
+    margin-top: 50px;
     font-size: 14px;
   }
   .logo {
+    height: 100px;
+    width: 140px;
     margin-left: 0px;
+  }
+  .myself {
+    margin-left: 70px;
   }
   .header-text p {
     font-size: 25px;
@@ -466,8 +472,8 @@ nav .fa-solid {
   }
   nav .fa-solid {
     display: block;
-    font-size: 25px;
-    color: #fff;
+    font-size: 23px;
+    color: #66fcf1;
   }
   nav ul {
     background: #44a29e;
